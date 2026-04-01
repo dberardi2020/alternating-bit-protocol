@@ -1,15 +1,9 @@
-Dimitri Berardi
-dberardi@wpi.edu
-Project 2
+# alternating-bit-protocol
 
-This project implements writing the sending and receiving transport-level
-code for implementing a simple reliable data transfer protocol, i.e., the Alternating-Bit-Protocol
-(ABP)
+A C implementation of the Alternating-Bit Protocol (ABP) for reliable transport-level data transfer. College networking assignment.
 
-Building the Project:
-	make all
-	
-Running the Project:
-	./project2
-	
-Enter arguments following guidelines given by prompts
+## Build & Run
+```sh
+make all
+./project2
+```
